@@ -27,7 +27,7 @@ def ServerPush(info): #Server酱推送
     requests.post(api, data=data)
 def CoolPush(info): #CoolPush酷推
     # cpurl = 'https://push.xuthus.cc/group/'+spkey   #推送到QQ群
-     cpurl = 'https://push.xuthus.cc/send/' + 962281e908aa6af2b12b401ae36a0af5  #SKey  # 推送到个人QQ
+     cpurl = 'https://push.xuthus.cc/send/' + '962281e908aa6af2b12b401ae36a0af5'  #SKey  # 推送到个人QQ
     api='https://push.xuthus.cc/send/{}'.format(SKey)
     print(api)
     print(info)
